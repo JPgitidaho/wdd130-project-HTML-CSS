@@ -1,3 +1,4 @@
+
 <head><title>BYUI</title><link rel="stylesheet" href="styles/styles.css" /></head>
 body {
     text-align: center;
@@ -26,4 +27,12 @@ p {
 footer {
     background-color: steelblue;
     color: white;
+}
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+    background-color: white;
+    color: steelblue;
 }

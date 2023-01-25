@@ -1,9 +1,40 @@
 img {
+    width: 30%;
+}
+img {
     width: 80%;
 }
-p {
-    width: 80%;
+* {
+    border: 2px solid blue;
 }
-a {
-    font-size: 1.5em;
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+* {
+    border: 2px solid blue;
 }

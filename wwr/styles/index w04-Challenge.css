@@ -1,0 +1,33 @@
+element.style {
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+user agent stylesheet img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.fig-block figure {
+    text-align: center;
+}
+
+main {
+    position: relative;
+    padding: 20px;
+    color: #3e3e3e;
+    /* background-color: #f0f0f0; */
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+img {
+
+}

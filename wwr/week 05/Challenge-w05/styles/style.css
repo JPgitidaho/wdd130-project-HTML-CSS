@@ -1,0 +1,9 @@
+img {
+    max-width: 100;
+}
+
+body {
+    background-color: #9c9b97;
+    background-image: url("mi-imagen.jpg");
+}
+

@@ -9,7 +9,7 @@
 }
     
 .home-title {
-    color:rgb(158, 128, 103);
+    color:rgb(124, 59, 6);
     font-family: "Caveat","Roboto Slab","Lora";
     font-size: 2em;
     margin-top: 10px;
@@ -39,12 +39,12 @@ main section {
 }
 #background {
     height: 725px;
-    background-color:rgb(102, 115, 133);
+    background-color:rgb(145, 136, 90);
    
 }
 
 body {
-    background-color : rgb(235, 248, 252);
+    background-color : rgb(217, 229, 233);
     font-size: 22px;
     font-family: "Roboto Slab","Lora", "Caveat";
     margin: 0;
@@ -56,19 +56,19 @@ h2 {
 }
 
 header {
-    background-color :rgb(140, 157, 177);
+    background-color :rgb(138, 97, 11);
     
     }
 nav a:hover {
     background-color :rgb(101, 154, 158);
     }
 .book  {
-    background-color :rgb(101, 154, 158);
+    background-color : rgb(216, 227, 243);
     color  : #e4dcd3; ;
     }
 .book:hover,.join:hover {
-    background-color:rgb(140, 157, 177);
-    color: rgb(126, 74, 31);
+    background-color:rgb(108, 128, 126);
+    color: rgb(221, 207, 196);
     
 }
 
@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 footer {
-    background-color : rgb(140, 157, 177);
+    background-color : rgb(15, 18, 22);
     padding: 25px 50px;
 }
 
@@ -96,7 +96,7 @@ h4  {
     padding-bottom: 15px;
 }
 footer a {
-    color: #0c0c0b;
+    color: #bebeae;
     text-decoration: none;
 }
 footer a:hover {
@@ -115,11 +115,11 @@ footer a:hover {
     width: 100%;
 }
 .join {
-    color:rgb(221, 172, 111);
+    color:rgb(124, 59, 6);
 }
 .book,.join {
-    background-color:  rgb(216, 227, 243);
-    color:rgb(126, 74, 31);
+    background-color:  rgb(96, 146, 131);
+    color:whitesmoke;
     text-decoration: none;
     margin-top: 50px;
     font-size: 18px;
@@ -129,6 +129,7 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+    color: whitesmoke;
 }
 footer p a:hover {
     text-decoration :underline;

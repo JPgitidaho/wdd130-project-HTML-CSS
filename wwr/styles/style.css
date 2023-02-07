@@ -79,6 +79,7 @@ nav a:hover {
 footer {
     background-color : rgb(15, 18, 22);
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 h4  {
@@ -147,4 +148,7 @@ footer .social img {
 }
 main section img {
     box-sizing: border-box;
+}
+.rivers-card,.camping-card,.rapids-card {
+    margin: 200px 0;
 }

@@ -162,17 +162,17 @@
   
 } 
 .green5 { 
-  width: 200px; 
-  height: 200px; 
+  width: 100px; 
+  height: 100px; 
   background-color: green;
- float: left;
+  float: left;
 
 
 } 
 .yellow5 {
  width: 100%;
  background-color: gold;
- min-height: 75px;
+ min-height:150px;
 }
 .blue5 {
   width: 100%; 

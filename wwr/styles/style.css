@@ -164,8 +164,6 @@ footer .social img {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    justify-content: space-around;
     justify-content: space-around;   
 
 }
@@ -182,15 +180,13 @@ nav {
     border:10px rgb(189, 178, 178) solid;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;   
-    box-shadow: 5px 5px 10px #6f7364;   
-    box-shadow: 5px 5px 10px #6f7364;      
+
     
 }
 
 .main section img {
     box-sizing: border-box;
-    box-sizing: border-box;
-    box-sizing: border-box; 
+     
 
 }
 

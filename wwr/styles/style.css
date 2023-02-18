@@ -58,7 +58,7 @@ h2 {
 }
 
 header {
-    background-color: rgb(62 62 62 / 80%);;
+    background-color: rgb(62 62 62 / 80%);
     display: grid;
     grid-template-columns: 150px auto;
     

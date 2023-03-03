@@ -268,8 +268,7 @@ nav {
 .msg2, 
 .msg3, 
 .msg4,
-.msg5,
- h2 {
+ h3 {
     text-align: center;
     color: rgb(221, 246, 132);
     font-size: 1em;
@@ -282,7 +281,7 @@ nav {
     line-height: 1.5em;
     padding: 35px;
     grid-column: 3/6;
-    grid-row: 1 /4;
+    grid-row: 1 /3;
     box-shadow: 10px 5px 5px #2e2f29;
     z-index: 3;
     margin-top: 100px;
@@ -356,7 +355,7 @@ nav {
         line-height: 1.5em;
         padding: 35px;
         grid-column: 3/6;
-        grid-row: 5 /10;
+        grid-row: 6/9;
         box-shadow: 10px 5px 5px #2e2f29;
         z-index: 3;
         margin-top:100px;
@@ -392,7 +391,7 @@ nav {
         line-height: 1.5em;
         padding: 35px;
         grid-column: 6/9;
-        grid-row:5/10;
+        grid-row:6/9;
         box-shadow: 10px 5px 5px #2e2f29;
         z-index:3;
         margin-top:100px ;
@@ -400,15 +399,22 @@ nav {
         text-align: left;
 
 }
-.msg5 {
+.msg5  {
     background-color: rgba(102, 115, 133, 0.481);
     line-height: 1.5em;
     padding: 35px;
     grid-column: 1/11;
     grid-row: 10;
     box-shadow: 5px 5px 10px #2e2f29;
-    margin-top: 100px;
+    margin-top: 150px;
+
+}
+.msg5 h3 {
     text-align: center;
+    color: rgb(214, 247, 244);
+    font-family: "Caveat", "Roboto Slab", "Lora";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 900px) {

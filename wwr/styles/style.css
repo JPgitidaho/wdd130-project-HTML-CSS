@@ -175,7 +175,7 @@ nav {
     
 .card-img  {
     width :100%;
-    border:10px rgb(244, 247, 250);
+    border:10px rgb(244, 247, 250)solid;
     transition: transform .5s;
     box-shadow: 5px 5px 10px rgb(19, 18, 18);   
 

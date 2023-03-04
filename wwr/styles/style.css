@@ -49,8 +49,8 @@ body {
     background-color : #B9E6F2;
     font-size: 22px;
     font-family: "Roboto Slab","Lora", "Caveat";
-    margin: auto;
-    padding: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {

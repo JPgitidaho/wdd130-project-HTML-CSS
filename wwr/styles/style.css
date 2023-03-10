@@ -493,9 +493,25 @@ button {
 .moveDown {
     margin-top: 3em;
 }
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 .previous {
-   
-    color: rgb(70, 79, 101);
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
+.round {
+    border-radius: 50%;
 }
 @media screen and (max-width: 900px) {
 

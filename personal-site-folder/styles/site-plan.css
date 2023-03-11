@@ -155,36 +155,39 @@ nav a:hover {
 .sitemap {
     display: grid;
     justify-content: center;
-
-    grid-template-columns: repeat(6, 15%);
+    grid-template-columns: repeat(8, 12%);
     grid-template-rows: 3em 1.5em 1.5em 3em;
-    grid-template-areas: ". . home home . ."
-        ". . . top . ."
-        ". left left right right ."
-        "page2 page2 . . page3 page3";
+    grid-template-areas: ". . . home home . . ."
+        ". . . . top . . ."
+        ". left left center1 center2 right right ."
+        "page2 page2 . page4 page4 . page3 page3";
 }
 
 .sitemap>div {
-
     text-align: center;
-
 }
 
 .sm-home {
     grid-area: home;
-    background-color: #ccc;
+    background-color: #999;
     line-height: 3em;
 }
 
 .sm-page2 {
     grid-area: page2;
-    background-color: #ccc;
+    background-color: #999;
     line-height: 3em;
 }
 
 .sm-page3 {
     grid-area: page3;
-    background-color: #ccc;
+    background-color: #999;
+    line-height: 3em;
+}
+
+.sm-page4 {
+    grid-area: page4;
+    background-color: #999;
     line-height: 3em;
 }
 
@@ -195,6 +198,17 @@ nav a:hover {
 
 .left {
     grid-area: left;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.center1 {
+    grid-area: center1;
+    border-top: 1px solid;
+}
+
+.center2 {
+    grid-area: center2;
     border-top: 1px solid;
     border-left: 1px solid;
 }

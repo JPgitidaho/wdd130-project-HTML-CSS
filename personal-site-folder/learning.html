@@ -68,24 +68,67 @@ body {
 .subnav:hover .subnav-content {
   display: block;
 }
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008bbaad;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: rgb(37, 72, 122);
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
 </style>
 </head>
 <body>
     <div id="content">
     <header>
         <div class="nav-grid">
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/ww-logo-header.png" alt="Logo image">
-        </a>
-        <nav>
-            <div class="navbar">
-                    <a href="index.html">Welcome</a>
-                    <div class="subnav">
-                        <button class="subnavbtn">Designe & more <i class="fa fa-caret-down"></i></button>
-                        <div class="subnav-content">
-                        <a href="learning.html">Learning</a>
-                        <a href="design.html">Projects</a>
-                        </div>
+          <div class="container">
+  <img class="logo" src="images/ww-logo-header-new.png" alt="Logo image">
+  <div class="overlay">
+    <div class="text">WOOD-WAYS</div>
+  </div>
+</div>
+    <nav>
+      <div class="navbar">
+          <a href="index.html">Welcome</a>
+              <div class="subnav">
+                  <button class="subnavbtn">Designe & more <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="learning.html">Learning</a>
+                      <a href="design.html">Projects</a>
+                      </div>
                     </div> 
                     <a href="small-business-solutions.html">Solution for Business </a>
                 </div>

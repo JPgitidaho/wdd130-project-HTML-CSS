@@ -5,7 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>woodways.webpage</title>
-    <link rel="stylesheet" href="">
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
 </head>
 <body>
     <div id="content">
@@ -15,176 +78,184 @@
             <img class="logo" src="images/ww-logo-header.png" alt="Logo image">
         </a>
         <nav>
-            <a href="index.html">WELCOME</a>
-            <div class="dropdown">
-                <button class="dropbtn">LEARNING</button>
-                <div class="dropdown-content">
-                    <a href="learning.html">Learning</a>
-                    <a href="design.html">Projects</a>
-            </div>           
-        </div>
-            <a href="small-business-solutions.html">SOLUTIONS </a> 
+            <div class="navbar">
+                    <a href="index.html">Welcome</a>
+                    <div class="subnav">
+                        <button class="subnavbtn">Designe & more <i class="fa fa-caret-down"></i></button>
+                        <div class="subnav-content">
+                        <a href="learning.html">Learning</a>
+                        <a href="design.html">Projects</a>
+                        </div>
+                    </div> 
+                    <a href="small-business-solutions.html">Solution for Business </a>
+                </div>
         </nav>
         </div>
     </header>
     <main>
         <div class="project-grid">
-          <div class="project-box"> 
-        <section id="project1">
+          <div class="project1-box"> 
             <h1 class="project-headline">PROJECT 1</h1>
-            <img  class="project1-img1" src="images/page-1-image-1-lo.jpg"alt="image-1"/>
+            <img  class="project1-img1" src="images/page-1-image-1-lo.jpg" alt="image-1">
             <h2 class="headline1-step1">Step 1</h2>
             <p class="project1-paragraph-1">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project1-img2" src="images/page-1-image-1-lo.jpg" alt="image-2"/>
+            <img class="project1-img2" src="images/page-1-image-1-lo.jpg" alt="image-2">
              <h2 class="headline1-step2">Step 2</h2>
             <p class="project1-paragraph-2">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project1-img3" src="images/page-1-image-1-lo.jpg" alt="image-3"/>
+            <img class="project1-img3" src="images/page-1-image-1-lo.jpg" alt="image-3">
             <h2 class="headline1-step3">Step 3</h2>
             <p class="project1-paragraph-3">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project1-img4" src="images/page-1-image-1-lo.jpg" alt="image-4"/>
+            <img class="project1-img4" src="images/page-1-image-1-lo.jpg" alt="image-4">
             <h2 class="headline1-step4">Step 4</h2>
             <p class="project1-paragraph-4">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img  class="project1-img5" src="images/page-1-image-1-lo.jpg"alt="image-5"/>
+            <img  class="project1-img5" src="images/page-1-image-1-lo.jpg" alt="image-5">
             <h2 class="headline1-step5">Step 5</h2>
             <p class="project1-paragraph-5">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project1-img6" src="images/page-1-image-1-lo.jpg" alt="image-6"/>
+            <img class="project1-img6" src="images/page-1-image-1-lo.jpg" alt="image-6">
             <h2 class="headline1-step6">Step 6</h2>
             <p class="project1-paragraph-6">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project1-img7" src="images/page-1-image-1-lo.jpg" alt="image-7"/>
+            <img class="project1-img7" src="images/page-1-image-1-lo.jpg" alt="image-7">
             <h2 class="headline1-step7">Step 7</h2>
             <p class="project1-paragraph-7">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project1-img8" src="images/page-1-image-1-lo.jpg" alt="image-8"/>
+            <img class="project1-img8" src="images/page-1-image-1-lo.jpg" alt="image-8">
             <h2 class="headline1-step8">Step 8</h2>
             <p class="project1-paragraph-8">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
-            </p>
-            </section>    
-        <section id="project2">
+            </p>  
+            </div> 
+        <div class="project2">
             <h1 class="project-headline2">PROJECT 2</h1>
-            <img  class="project2-img1" src="images/page-1-image-1-lo.jpg"alt="image-1"/>
+            <img  class="project2-img1" src="images/page-1-image-1-lo.jpg" alt="image-1">
             <h2 class="headline2-step1">Step 1</h2>    
             <p class="project2-paragraph-1">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project2-img2" src="images/page-1-image-1-lo.jpg" alt="image-2"/>
+            <img class="project2-img2" src="images/page-1-image-1-lo.jpg" alt="image-2">
             <h2 class="headline2-step2">Step 2</h2>
             <p class="project2-paragraph-2">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project2-img3" src="images/page-1-image-1-lo.jpg" alt="image-3"/>
+            <img class="project2-img3" src="images/page-1-image-1-lo.jpg" alt="image-3">
             <h2 class="headline2-step3">Step 3</h2>
             <p class="project2-paragraph-3">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project2-img4" src="images/page-1-image-1-lo.jpg" alt="image-4"/>
+            <img class="project2-img4" src="images/page-1-image-1-lo.jpg" alt="image-4">
             <h2 class="headline2-step4">Step 4</h2>
             <p class="project2-paragraph-4">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img  class="project2-img5" src="images/page-1-image-1-lo.jpg"alt="image-5"/>
+            <img  class="project2-img5" src="images/page-1-image-1-lo.jpg" alt="image-5">
             <h2 class="headline2-step5">Step 5</h2>    
             <p class="project2-paragraph-5">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project2-img6" src="images/page-1-image-1-lo.jpg" alt="image-6"/>
+            <img class="project2-img6" src="images/page-1-image-1-lo.jpg" alt="image-6">
             <h2 class="headline2-step6">Step 6</h2>
             <p class="project2-paragraph-6">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project2-img7" src="images/page-1-image-1-lo.jpg" alt="image-7"/>
+            <img class="project2-img7" src="images/page-1-image-1-lo.jpg" alt="image-7">
             <h2 class="headline2-step7">Step 7</h2>
             <p class="project2-paragraph-7">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-            <img class="project2-img8" src="images/page-1-image-1-lo.jpg" alt="image-8"/>
+            <img class="project2-img8" src="images/page-1-image-1-lo.jpg" alt="image-8">
             <h2 class="headline2-step8">Step 8</h2>
             <p class="project2-paragraph-8">The questions that my page will basically answer are what is it like to
                 be a carpenter, what and what are the types of wood, and how to start and design your projects 
                 in two types of wood. I will show in a simple way what are the necessary tools and what basic 
                 skills those who want to start should have.
             </p>
-        </section>
-    </div>
-</main>
+            </div>
+        </div>
+    </main>
 <footer>
     <div class="footer-grid">
         <div class="contact">
             <p id="addme">Subcribe</p>
-          <img class="logo-profile"  src="images/ww-logo-footer.png" alt="Logo image"></div>
+          <img class="logo-profile"  src="images/ww-logo-footer.png" alt="Logo image">
+        </div>
           <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
+        <form action="/my-handling-form-page" method="post">
         <ul>
             <li>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
+            <input type="text" id="name" name="user_name">
         </li>
             <li>
             <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_email" />
-        <li>
+            <input type="email" id="mail" name="user_email">
+        </li>
+            <li>
             <label for="msg">Message:</label>
             <textarea id="msg" name="user_message"></textarea>
         </li>
         <li class="button">
         <button type="submit">Send your message</button>
-    </li>
-        <p id="addme">Contac us</p>   
-            <div class="social">
+        </li>
+        </ul>
+        </form>
+              
+        <div class="social">
+                <p id="contactus">Contac us</p>
         <a href="https://facebook.com" target="_blank"> 
-            <img src="images/facebook.png" alt="fb icon"></a>
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
         <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon"></a>
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
         <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon"></a>
-        
-        <div class="copyright"> &copy; 2023 - Juanita P. Aguilera</div>
-    </div>
-     </div>
-</footer>
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+        </div>
+            <div class="copyright"> &copy; 2023 - Juanita P. Aguilera</div>   
+            </div>
+        </footer> 
  </div>
 </body>
 </html>

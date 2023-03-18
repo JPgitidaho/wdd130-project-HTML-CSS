@@ -5,135 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>woodways.webpage</title>
-    <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333; 
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
-}
-
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: red;
-  width: 100%;
-  z-index: 1;
-}
-
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
-}
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-  right: 0;
-  background-color: #008bbaad;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  width: 100%;
-  left: 0;
-}
-
-.text {
-  color: rgb(37, 72, 122);
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-
-</style>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
     <header>
-        <div class="nav-grid">
-          <div class="container">
-  <img class="logo" src="images/ww-logo-header-new.png" alt="Logo image">
-  <div class="overlay">
-    <div class="text">WOOD-WAYS</div>
-  </div>
-</div>
+        <img class="logo" src="images/ww-logo-header-new.png" alt="Logo image">
     <nav>
-      <div class="navbar">
-          <a href="index.html">Home</a>
-              <div class="subnav">
-                  <button class="subnavbtn">Designe & more <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                      <a href="learning.html">Learning</a>
-                      <a href="design.html">Projects</a>
-                      </div>
-                    </div> 
-                    <a href="small-business-solutions.html">Solution for Business </a>
-                </div>
+          <a href="index.html">Home</a>         
+            <a href="learning.html">Learning</a>
+            <a href="design.html">Projects</a>
+            <a href="small-business-solutions.html">Solution for Business </a>
         </nav>
-        </div>
+        
     </header>
     <main>
         <div class="solution-grid">
@@ -239,34 +123,10 @@ body {
     </div>
 </main>
 <footer>
-    <div class="footer-grid">
-        <div class="contact">
-            <p id="addme">Subcribe</p>
-          <img class="logo-profile"  src="images/ww-logo-footer.png" alt="Logo image">
-        </div>
-          <div id="feedback"></div>
-        <form action="/my-handling-form-page" method="post">
-        <ul>
-            <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-        </li>
-            <li>
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_email">
-        </li>
-            <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <li class="button">
-        <button type="submit">Send your message</button>
-        </li>
-        </ul>
-        </form>
-              
-        <div class="social">
-                <p id="contactus">Contac us</p>
+<a id="email" href="woodways.webpage@gmail.com" 
+            target="_blank">CONTACT US!</a>
+            <img class="logo-profile"  src="images/ww-logo-footer.png" alt="Logo image">       
+      <div class="social">
         <a href="https://facebook.com" target="_blank"> 
             <img src="images/facebook.png" alt="fb icon">
         </a>
@@ -278,11 +138,9 @@ body {
         </a>
         </div>
             <div class="copyright"> &copy; 2023 - Juanita P. Aguilera</div>   
-            </div>
-            <div class="site-plan">
           <a id="site-plan" href="site-plan.html">Personal-Site-folder</a>
         </div>
-        </footer> 
- </div>
+        </footer>  
+    </div> 
 </body>
 </html>

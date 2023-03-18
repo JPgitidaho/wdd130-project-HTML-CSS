@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #1789fc;
+    --secondary-color: #ffd07b;
+    --accent1-color: #b1740f;
+    --accent2-color: white;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Caveat";
+    --paragraph-font: "Roboto", "Caveat";
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #b1740f;
+    /* headlines on a white background */
+    --headline-color-on-color: white;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #b1740f;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: white;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #b1740f;
+    --nav-link-color: #1789fc;
+    --nav-background-color: #ffd07b;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #1789fc;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body {
+    background-color: #c2a45eda;
+    font-size: 22px;
+    font-family: "Roboto Slab", "Lora", "Caveat";
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #F3FAF8;
+    text-decoration: none;
+    padding: 35px;
+
+}
+nav a:hover {
+    background-color: #ffd07b;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color:#03556b73 ;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    width: 150px;
+}
+
+footer {
+    max-width: 90%;
+    display: grid;
+    padding: 25px 50px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background-color: #b07617da;
+    
+}
+
+footer a {
+    color: #442b04;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F3FAF8;
+}
+footer p {
+    font-size: 1.2em;
+    color: whitesmoke;
+    
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    padding-top: 15px; 
+    width: 80px;   
+}
+.social {
+    grid-column: 3;
+    align-self: center;
+}
+#email{
+    margin: 20px ;
+    align-self: center;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 2em;
+   
+   
+}
+
+
+#site-plan {
+    text-decoration: none;
+    margin: 0;
+    grid-row: 4;
+    grid-column: 3;
+    text-align: right;
+    text-decoration: none;
+}
+.copyright {
+    margin: 0 ;
+    grid-row:4;
+    grid-column:1;
+    text-align: left;
+    text-decoration: none;
+}
+
+.logo-profile {
+    width: 80%;
+    grid-column:1;
+    margin: 0;
+}
+
+
+/************** INDEX PAGE**************
+****************************************/

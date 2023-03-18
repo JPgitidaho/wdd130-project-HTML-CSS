@@ -413,8 +413,7 @@ nav {
     
 }
 /* css subpage contac us */
-form {
-    /* Center the form on the page */
+form {/* Center the form on the page */
     margin: 0 auto;
     width: 600px;
     /* Form outline */

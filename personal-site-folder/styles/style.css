@@ -74,7 +74,6 @@ header {
 #logo_link {
     padding: 15px;
     justify-self: left;
-    align-self: left;
     color: #F3FAF8;
     grid-row: 2;
     grid-column: 1;
@@ -203,4 +202,3 @@ footer p a:hover {
     font-size: 2em;
     margin-top: 10px;
     }
-}

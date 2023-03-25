@@ -2,22 +2,33 @@
 
 
 /*****************************assigment week 12****************************/
+.w-6 {
+    width: 12px;
+    color: #fff
+}
+
+.h-6 {
+    height: 12px;
+}
+
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #180d6c;
+    display:flex;
+    
 }
 
 .navbar a {
-    float: left;
-    font-size: 16px;
+   
+    padding: 12px;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    
+   
 }
 
 .subnav {
-    float: left;
     overflow: auto;
 }
 
@@ -41,9 +52,7 @@
 .subnav-content {
     display: none;
     position: absolute;
-    left: 0;
     background-color:#b1740f;
-    width: 100%;
     z-index: 1;
     
 }
@@ -60,7 +69,8 @@
 }
 
 .subnav:hover .subnav-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 /**************************************************************************/
@@ -76,33 +86,7 @@ body {
     padding: 0;
    
 }
-/*
-nav {
-    display: flex;
-    justify-content: space-around;
-}
 
-nav a {
-    margin-top:100px;
-    text-align: center;
-    color: #F3FAF8;
-    text-decoration: none;
-    padding: 15px;
-
-}
-nav a:hover {
-    background-color: #ffd07b;
-    display: flex;
-    justify-content: space-around;
-}
-
-header {
-    background-color:#012731ca ;
-    display: grid;
-    grid-template-columns:150px auto ;
-    
-}
-*/
 .logo-img {
     width: 150px;;
     justify-self: center;
@@ -117,8 +101,8 @@ footer {
     display: grid;
     padding: 25px 50px;
     grid-template-columns: 1fr 1fr 1fr ;
-    border-radius: 10px;
-    background-color: #b0751732;
+   
+    background-color:#b1740f;
     margin-top: 150px;
     
 }
@@ -295,6 +279,7 @@ nav a {
     display: block;
     padding: 15px;
 }
+
 
 #hero {
     margin-top: 0;

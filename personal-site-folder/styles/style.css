@@ -139,7 +139,7 @@ footer p a:hover {
 .home-grid {
     display: grid;
     grid-template-columns:1fr 1fr ;
-    grid-template-rows:250px auto  ;
+    grid-template-rows:200px auto  ;
     grid-gap:15px;
   
 }
@@ -163,24 +163,18 @@ footer p a:hover {
   
 }
 
-.home-head {
+.home-head, .why-carpenter {
     grid-column: 1/4;
     text-align: center;
-    margin: 0;
     color: #b1740f;
     font-family:  "Caveat","Roboto Slab", "Lora", sans-serif;
-    font-size:medium;
-    
-}
-.why-carpenter {
-    color: #b1740f;
-    font-family: "Caveat", "Roboto Slab", "Lora";
-    font-size: 3em;
-    margin:0 ;
-    text-align: center;
+    font-size:1.5em;
     align-self: center;
-    padding: 10px;
+    justify-content: center;
+    padding: 5px;
 }
+
+    
 .parag-left-1, 
 .parag-left-2,
 .parag-left-3  {

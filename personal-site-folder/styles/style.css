@@ -236,11 +236,12 @@ footer p a:hover {
 
 /***************************** SUB-PAGE 1***************************************
 *********************************************************************************/
+
 .learning-project-grid {
     display: grid;
-    grid-template-columns:  repeat(8, 1fr);
-    grid-template-rows: 150px  ;
-    grid-gap: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 3em;
+    margin: 100px 0;
 }
 .learning-headline {
     font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
@@ -250,70 +251,58 @@ footer p a:hover {
     text-align: center;
     align-self: center;
     margin: 0;
-    grid-column: 1/10;  
+    grid-column: 1/11;  
     grid-row: 1;
     background-color: #b1730f8c;
  }
 
-
-.learning-paragraph-1 {
-    grid-column: 2/7;
-    grid-row: 2;
-    font-size:medium;
-    font-family:  "Roboto Slab", "Lora","Caveat", sans-serif;
-    margin-top: 5px;
-  
-}
-
-
-.learning-paragraph-2  {
-    grid-column:2/7;
-    grid-row: 3;
-    font-size: 20px;
-    text-align: justify;
-    font-family: "Roboto Slab", "Lora","Caveat", sans-serif;    
-    margin-top: 5px;
+.learning-paragraph-1, .learning-paragraph-2, .learning-paragraph-3 {
     font-size: medium;
-}
-.learning-paragraph-3{
-    grid-column: 2/ 10;
-    grid-row: 4;
-    font-size: medium;
-    text-align: center;
     font-family: "Roboto Slab", "Lora", "Caveat", sans-serif;
+    text-align: justify;
+    
+}
+
+
+.learning-paragraph-1, .learning-paragraph-2 {
+    grid-column: 4/8;
+   
+      
+}
+
+.learning-paragraph-3{
+    grid-column: 1/ 11;
+    font-size: larger;
+    background-color: #b1730fc5;
     padding:10px;
-       
+         
 }
 
 .right1-img {
-    grid-column: 7/10;
+    grid-column:8/11;
     grid-row: 2;
 }
 .right2-img {
-    grid-column: 7/10;
+    grid-column: 8/11;
     grid-row: 3;
 }
 .right1-img, .right2-img, .left1-img, .left2-img {
-    padding: 5px;
-    width:300px;
-    align-self: center;
-    
-    
+      padding: 5px; 
+      width:100%;
 }
+    
+    
+
 .left1-img {
-    grid-column: 1;
+    grid-column: 1/4;
     grid-row: 2;
 }
 .left2-img {
-    grid-column: 1;
+    grid-column: 1/4;
     grid-row: 3;
    
 }
-.msg1 {
-    grid-column: 1/10;
-    background-color: #9a6010;
-    color: #F3FAF8;
-}
+
 
 
 @media screen and (max-width: 900px) {

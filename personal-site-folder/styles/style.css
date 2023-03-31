@@ -4,36 +4,42 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
 body {
     background-color: whitesmoke;
-    font-family:"Roboto Slab","Caveat", "Lora", sans-serif;
     margin: 0;
     padding: 0;
-   
+    font-family: "Roboto Slab", "Lora", "Caveat", sans-serif;
+    font-size:medium;
+
 }
 
 .logo-img {
-    width:200px;;
+    width: 200px;
     z-index: 2;
     margin-top: -20px;
-      
+
 }
+
 nav {
     display: flex;
     justify-content: space-around;
 }
+
 nav a:hover {
-    color:#f7d59e;
+    color: #f7d59e;
     justify-content: space-around;
 }
+
 nav a {
-    color:white ;
+    color: white;
     text-decoration: none;
-    margin-top:50px;
-    padding:20px;
+    margin-top: 50px;
+    padding: 20px;
     font-size: 20px;
- 
+
 }
+
 header {
     background-color: #b1730f62;
     display: grid;
@@ -43,8 +49,9 @@ header {
 
 #hero-img {
     width: 100%;
-    height:  300px;
+    height: 300px;
 }
+
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -58,13 +65,14 @@ header {
     z-index: -1;
 
 }
+
 footer {
     display: grid;
     padding: 25px 50px;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #9a6010;
     margin-top: 150px;
-    
+
 }
 
 footer a {
@@ -75,19 +83,21 @@ footer a {
 footer a:hover {
     color: #F3FAF8;
 }
+
 footer p {
-    font-size: 1.2em;
+   
     color: whitesmoke;
-    
+
 }
+
 footer p a:hover {
     text-decoration: underline;
 }
 
 .social img {
     padding-top: 15px;
-    width:50px;
-    
+    width: 50px;
+
 }
 
 .social2 {
@@ -96,15 +106,16 @@ footer p a:hover {
     justify-self: center;
 
 }
-#email{
-    margin: 20px ;
+
+#email {
+    margin: 20px;
     align-self: center;
     grid-column: 2;
     grid-row: 1;
-    font-size: 2em;
-    justify-self: center; 
    
-    padding: 20px; 
+    justify-self: center;
+
+    padding: 20px;
 }
 
 
@@ -116,17 +127,18 @@ footer p a:hover {
     text-align: center;
     text-decoration: none;
 }
+
 .copyright {
-    margin: 0 ;
-    grid-row:4;
-    grid-column:1;
+    margin: 0;
+    grid-row: 4;
+    grid-column: 1;
     text-align: center;
     text-decoration: none;
 }
 
 .logo-profile {
-    width:250px;
-    grid-column:1;
+    width: 250px;
+    grid-column: 1;
     margin: 10px;
     justify-self: center;
 
@@ -134,103 +146,111 @@ footer p a:hover {
 
 
 
+
+
 /************** INDEX PAGE**************
 ****************************************/
 .home-grid {
     display: grid;
-    grid-template-columns:1fr 1fr ;
-    grid-template-rows:200px auto  ;
-    grid-gap:15px;
-  
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px auto;
+    grid-gap: 15px;
+
 }
 
 .left-img {
-    width:600px;
-    border-radius: 5px;
+    width: 600px;
+    border-radius: 10px;
     margin-top: 10px;
     margin-left: 5px;
-  
-  
-} 
+    grid-column: 6/11;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 
 .right-img {
-    width:600px;
-    border-radius: 5px;
+    width: 600px;
+    border-radius: 10px;
     margin-left: 0;
     margin-left: 20px;
     padding: 10px;
-  
-  
+    -webkit-border-radius:20px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+h1 {
+    font-family:  "Caveat", "Roboto Slab","Lora",sans-serif;
+    color: #372304;
+    padding: 15px;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    grid-column: 1/11;
+    background-color: #b1730f8c;
 }
 
-.home-head, .why-carpenter {
-    grid-column: 1/4;
+
+.why-carpenter {
+    grid-column: 1/11;
     text-align: center;
     color: #b1740f;
-    font-family:  "Caveat","Roboto Slab", "Lora", sans-serif;
-    font-size:1.5em;
     align-self: center;
     justify-content: center;
-    padding: 5px;
+ 
 }
 
-    
-.parag-left-1, 
-.parag-left-2,
-.parag-left-3  {
-    margin:0;
-    font-family:"Lora", "Roboto Slab", "Caveat", sans-serif;
-    font-size: medium;
+
+.parag-left {
+    margin: 0;    
     text-align: left;
     justify-content: left;
     align-self: center;
-    padding: 10px;   
+    padding: 10px;
+    grid-column: 1/5;
 }
 
-.parag-right-1 {
-    margin-top:30px;
-    font-family:  "Lora","Roboto Slab","Caveat", sans-serif;
-    font-size: medium;
-    text-align: left;
-    padding: 10px;     
-}
-.parag-right-2 {
-    margin: 0;
-    font-family: "Lora", "Roboto Slab", "Caveat", sans-serif;
-    font-size: medium;
+.parag-right {
+    margin-top:20px;
     text-align: left;
     padding: 10px;
+    grid-column: 6/10;
 }
+
+
+
 .links {
-    grid-row: 4;
-    grid-column:1/3;
+    grid-row: 6;
+    grid-column: 1/10;
     justify-content: center;
     text-align: center;
-   
+
 
 }
+
 .learn-with {
-    font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
-    font-size:4em;
     color: #9a6010;
     padding: 15px;
     text-align: center;
-    margin:0;
-    
-    
+    margin: 0;
+    font-size: 2em;
+
+
 }
+
 .join {
-    background-color:#b1730f8c;
+    background-color: #b1730f8c;
     color: #9a6010;
     text-decoration: none;
-    font-size: 3em;
     padding: 15px 30px;
     border-radius: 5px;
     text-align: center;
 }
+
 .join:hover {
-    font-size:3em;
-    background-color: #180d6c6f;
+    background-color: #b1730f8c;
     color: #F3FAF8;
 }
 
@@ -240,103 +260,197 @@ footer p a:hover {
 .learning-project-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-gap: 3em;
+    grid-gap: 2.5em;
     margin: 100px 0;
 }
-.learning-headline {
-    font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
-    font-size: 3em;
-    color: #372304;
-    padding: 15px;
-    text-align: center;
-    align-self: center;
-    margin: 0;
-    grid-column: 1/11;  
-    grid-row: 1;
-    background-color: #b1730f8c;
- }
-
-.learning-paragraph-1, .learning-paragraph-2, .learning-paragraph-3 {
-    font-size: medium;
-    font-family: "Roboto Slab", "Lora", "Caveat", sans-serif;
-    text-align: justify;
-    
-}
 
 
-.learning-paragraph-1, .learning-paragraph-2 {
+
+
+
+.learning-paragraph-1,
+.learning-paragraph-2 {
     grid-column: 4/8;
-   
-      
+
 }
 
-.learning-paragraph-3{
+.learning-paragraph-3 {
     grid-column: 1/ 11;
-    font-size: larger;
     background-color: #b1730fc5;
-    padding:10px;
-         
+    padding: 10px;
+
 }
 
 .right1-img {
-    grid-column:8/11;
+    grid-column: 8/11;
     grid-row: 2;
 }
+
 .right2-img {
     grid-column: 8/11;
     grid-row: 3;
 }
-.right1-img, .right2-img, .left1-img, .left2-img {
-      padding: 5px; 
-      width:100%;
+
+.right1-img,
+.right2-img,
+.left1-img,
+.left2-img {
+    padding: 5px;
+    width: 100%;
 }
-    
-    
 
 .left1-img {
     grid-column: 1/4;
     grid-row: 2;
 }
+
 .left2-img {
     grid-column: 1/4;
     grid-row: 3;
-   
+
+}
+
+/****************************************SUB-PAGE2*************************************************************
+***************************************************************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 100%;
+    margin: 10px;
 }
 
 
 
-@media screen and (max-width: 900px) {
+.row {
 
-#hero,.home-grid {
-    display: block;
-    height: auto;
+    margin: 8px -16px;
 }
 
-nav,
-footer {
-    flex-direction: column;
-}
 
-nav a {
-    display: block;
+.row,
+.row>.column {
+
     padding: 15px;
 }
 
-
-#hero {
-    margin-top: 0;
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
 }
 
-#hero-msg {
-    margin-top: 0;
+p {
+    margin-left: 10px;
+    
 }
 
-#hero-msg h4 {
-    display: none;
+
+ li   {
+    font-family: "Caveat","Roboto Slab",  "Lora", sans-serif; 
+    font-size:1.5em;
 }
 
-.home-title {
-    font-size: 25px;
-    color: #6f7364;
+
+.p-cont-big {
+    font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
+    font-size: 3em;
 }
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-big {
+
+    width: 100%;
+
+}
+
+.content {
+    padding: 10px;
+
+}
+
+.proj {
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    border: 10px #b1730f8c solid;
+    width: 100%;
+    height: 200px;
+}
+
+.big-proj {
+    width: 100%;
+}
+
+
+/******************************************SUB PAGE 3***********************************************************
+****************************************************************************************************************/
+.solution-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 2em;
+    margin: 100px 0;
+}
+
+.solution-paragraph-1 {
+    grid-column: 1/11;
+} 
+.solution-paragraph-2, 
+.solution-paragraph-3, 
+.solutions-paragraph-4,
+.solution-paragraph-5 {
+    padding: 10px;
+    grid-column: 1/11;
+
+}
+
+.img1,.img2, .img3, .img4 {
+    padding: 5px;
+    width: 100%;
+    align-self: center;
+    grid-column:3/9;
+    margin-top: 50px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    border: 10px #b1730f8c solid;
+}
+
+
+
+.solution-box,
+.solution {
+    grid-column: 1/11;
+}
+
+
+h2 {
+    text-align: center;
+    
+}
+
+
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }

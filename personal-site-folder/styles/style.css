@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap");
 
 #content {
     max-width: 1600px;
@@ -10,24 +10,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto Slab", "Lora", "Caveat", sans-serif;
-    font-size:1.2em;
-
+    font-size: 1.2em;
 }
+
 p {
     margin-left: 10px;
 }
 
 h2 {
     text-align: center;
-
 }
-
 
 .logo-img {
     width: 200px;
     z-index: 2;
     margin-top: -20px;
-
 }
 
 nav {
@@ -46,7 +43,6 @@ nav a {
     margin-top: 50px;
     padding: 20px;
     font-size: 20px;
-
 }
 
 header {
@@ -54,7 +50,6 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
-
 
 #hero-img {
     width: 100%;
@@ -65,14 +60,12 @@ header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -200px;
-
 }
 
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
-
 }
 
 footer {
@@ -82,7 +75,6 @@ footer {
     background-color: #9a6010;
     margin-top: 150px;
     height: 300px;
-
 }
 
 footer a {
@@ -92,13 +84,11 @@ footer a {
 }
 
 footer a:hover {
-    color: #F3FAF8;
+    color: #f3faf8;
 }
 
 footer p {
-   
     color: whitesmoke;
-
 }
 
 footer p a:hover {
@@ -108,14 +98,12 @@ footer p a:hover {
 .social img {
     padding-top: 15px;
     width: 50px;
-
 }
 
 .social2 {
     grid-column: 3;
     align-self: center;
     justify-self: center;
-
 }
 
 #email {
@@ -123,12 +111,11 @@ footer p a:hover {
     align-self: center;
     grid-column: 2;
     grid-row: 1;
-   
+
     justify-self: center;
 
     padding: 20px;
 }
-
 
 #site-plan {
     text-decoration: none;
@@ -152,21 +139,15 @@ footer p a:hover {
     grid-column: 1;
     margin: 10px;
     justify-self: center;
-
 }
-
-
-
-
 
 /************** ***********************INDEX PAGE****************************************
 ****************************************************************************************/
 .home-grid {
     display: grid;
-    grid-template-columns:repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     margin: 100px 0;
     grid-gap: 3em;
-
 }
 
 .left-img {
@@ -175,12 +156,11 @@ footer p a:hover {
     margin-left: 30px;
     grid-column: 1/6;
     grid-row: 3;
-    transition: transform .5s;
+    transition: transform 0.5s;
     box-shadow: 5px 5px 10px black;
     border: 10px #b1730f8c solid;
     justify-self: center;
     padding: 5px;
- 
 }
 
 .right-img {
@@ -189,14 +169,12 @@ footer p a:hover {
     width: 100%;
     margin-left: 0;
     margin-left: 20px;
-    transition: transform .5s;
+    transition: transform 0.5s;
     box-shadow: 5px 5px 10px black;
     border: 10px #b1730f8c solid;
     justify-self: center;
     padding: 5px;
 }
-
-
 
 .why-carpenter {
     font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
@@ -210,30 +188,25 @@ footer p a:hover {
     grid-column: 1/12;
 }
 
-
-
 .parag-left {
-    margin: 0;    
+    margin: 0;
     text-align: left;
     padding: 10px;
     grid-column: 1/6;
 }
 
 .parag-right {
-    margin-top:20px;
+    margin-top: 20px;
     text-align: left;
     padding: 10px;
     grid-column: 6/11;
 }
-
-
 
 .links {
     grid-row: 4;
     grid-column: 1/11;
     justify-content: center;
     text-align: center;
-
 }
 
 .learn-with {
@@ -242,7 +215,6 @@ footer p a:hover {
     text-align: center;
     margin: 0;
     font-size: 2em;
-
 }
 
 .join {
@@ -256,7 +228,7 @@ footer p a:hover {
 
 .join:hover {
     background-color: #b1730f8c;
-    color: #F3FAF8;
+    color: #f3faf8;
 }
 
 /***************************** SUB-PAGE 1***************************************
@@ -265,8 +237,9 @@ footer p a:hover {
 .learning-project-grid {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-gap: 2.5em;
+    grid-gap:4em;
     margin: 100px 0;
+    
 }
 
 .head1 {
@@ -284,16 +257,15 @@ footer p a:hover {
 .learning2 {
     grid-column: 4/9;
     text-align: justify;
-
 }
 
 .learning-paragraph1 {
     grid-column: 1/ 12;
-    grid-row:3;
+    grid-row: 3;
     background-color: #b1730fc5;
     padding: 10px;
-
 }
+
 .learning-paragraph2 {
     grid-column: 1/ 12;
     grid-row: 5;
@@ -304,53 +276,62 @@ footer p a:hover {
 .right1-img {
     grid-column: 9/12;
     grid-row: 2;
+    margin-right: 50px;
+    
 }
 
 .right2-img {
     grid-column: 9/12;
     grid-row: 4;
+    margin-right: 50px;
 }
 
 .right1-img,
 .right2-img,
 .left1-img,
 .left2-img {
-    padding: 5px;
     width: 100%;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px black;
+    border: 10px #b1730f8c solid;
+    justify-self: center;
+    padding: 5px;
 }
 
 .left1-img {
     grid-column: 1/4;
     grid-row: 2;
+    margin-left: 50px ;
 }
 
 .left2-img {
     grid-column: 1/4;
     grid-row: 4;
-
+    margin-left: 50px ;
 }
-
 
 /****************************************SUB-PAGE2*************************************************************
 ***************************************************************************************************************/
 .main {
     display: grid;
-    grid-template-columns:repeat(10, 1fr);
-    grid-template-rows:auto;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
     grid-gap: 3em;
     margin: 100px 0;
-   
-   
 }
+
 .headlineproj {
     grid-column: 1/11;
     grid-row: 1;
 }
+
 .headlineproj2 {
     grid-column: 1/11;
     grid-row: 8;
 }
-.headlineproj, .headlineproj2 {
+
+.headlineproj,
+.headlineproj2 {
     font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
     color: #372304;
     padding: 15px;
@@ -359,59 +340,52 @@ footer p a:hover {
     margin: 0;
     background-color: #b1730f8c;
 }
-li   {
-    font-family: "Caveat","Roboto Slab",  "Lora", sans-serif; 
-    font-size:1.5em;
-   
+
+li {
+    font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
+    font-size: 1.5em;
 }
 
 .mainproject {
     grid-column: 2/10;
-    grid-row:2/3;
-   
-   
+    grid-row: 2/3;
 }
+
 .mainproject2 {
     grid-column: 2/10;
-   
 }
 
 .recommendation {
     grid-column: 2/10;
 }
+
 .step {
     width: 100%;
     height: 350px;
-   
 }
-
 
 .proj1,
 .proj2,
-.finished     {
-    transition: transform .5s;
+.finished {
+    transition: transform 0.5s;
     box-shadow: 5px 5px 10px black;
     border: 10px #b1730f8c solid;
     justify-self: center;
-    padding: 5px;   
-    
+    padding: 5px;
 }
 
 .proj1 {
-    grid-column:2/6;
-
+    grid-column: 2/6;
 }
 
 .proj2 {
-    grid-column:6/10;
- 
+    grid-column: 6/10;
 }
-
 
 .finished {
-    grid-column : 3/9;
- 
+    grid-column: 3/9;
 }
+
 .p-step {
     grid-column: 2/10;
     font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
@@ -423,7 +397,6 @@ li   {
     font-size: 2em;
 }
 
-
 /******************************************SUB PAGE 3***********************************************************
 ****************************************************************************************************************/
 .solution-grid {
@@ -433,15 +406,19 @@ li   {
     grid-gap: 3em;
     margin: 100px 0;
 }
+
 .headsolution {
     grid-column: 1/11;
     grid-row: 1;
 }
+
 .headsolution2 {
     grid-column: 1/11;
     grid-row: 3;
 }
-.headsolution, .headsolution2 {
+
+.headsolution,
+.headsolution2 {
     font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
     color: #372304;
     padding: 15px;
@@ -452,31 +429,28 @@ li   {
 }
 
 .solution-paragraph-1,
-.solution-paragraph-2, 
-.solution-paragraph-3, 
+.solution-paragraph-2,
+.solution-paragraph-3,
 .solutions-paragraph-4,
 .solution-paragraph-5 {
-    
     grid-column: 2/10;
     padding: 10px;
     align-self: center;
     justify-self: center;
-    
-    
 }
 
-.img1,.img2, .img3, .img4 {
+.img1,
+.img2,
+.img3,
+.img4 {
     grid-column: 3/9;
     padding: 5px;
     width: 600px;
     justify-self: center;
-    transition: transform .5s;
+    transition: transform 0.5s;
     box-shadow: 5px 5px 10px black;
     border: 10px #b1730f8c solid;
 }
-
-
-
 
 .solution {
     grid-column: 1/5;
@@ -499,15 +473,7 @@ li   {
         margin-top: 0;
     }
 
-
     footer {
         margin-top: 25px;
     }
 }
-
-
-
-
-
-
-

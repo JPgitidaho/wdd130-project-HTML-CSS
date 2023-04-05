@@ -152,7 +152,7 @@ footer p a:hover {
 
 .left-img {
     width: 100%;
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 3/4;
     margin-left: 50px;
     transition: transform 0.5s;
@@ -163,7 +163,7 @@ footer p a:hover {
 }
 
 .right-img {
-    grid-column: 7/11;
+    grid-column: 6/11;
     width: 100%;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px black;
@@ -185,12 +185,14 @@ footer p a:hover {
 
 .parag-left {
     text-align: justify;
-    grid-column: 1/7;
+    grid-column: 1/6;
+    align-self: center;
 }
 
 .parag-right {
     text-align: justify;
-    grid-column:5/11;
+    align-self: center;
+    grid-column:6/11;
 }
 
 .links {

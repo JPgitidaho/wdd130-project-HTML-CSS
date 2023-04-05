@@ -81,12 +81,14 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #9a6010;
     margin-top: 150px;
+    height: 300px;
 
 }
 
 footer a {
     color: #442b04;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
 footer a:hover {
@@ -169,11 +171,15 @@ footer p a:hover {
 
 .left-img {
     width: 100%;
-    border-radius: 10px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
     grid-column: 1/6;
     grid-row: 3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    border: 10px #b1730f8c solid;
+    justify-self: center;
+    padding: 5px;
  
 }
 
@@ -181,14 +187,13 @@ footer p a:hover {
     grid-column: 6/11;
     grid-row: 2;
     width: 100%;
-    border-radius: 10px;
     margin-left: 0;
     margin-left: 20px;
-    padding: 10px;
-    -webkit-border-radius:20px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    border: 10px #b1730f8c solid;
+    justify-self: center;
+    padding: 5px;
 }
 
 
@@ -225,7 +230,7 @@ footer p a:hover {
 
 .links {
     grid-row: 4;
-    grid-column: 1/10;
+    grid-column: 1/11;
     justify-content: center;
     text-align: center;
 
@@ -244,7 +249,7 @@ footer p a:hover {
     background-color: #b1730f8c;
     color: #9a6010;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 100px;
     border-radius: 5px;
     text-align: center;
 }

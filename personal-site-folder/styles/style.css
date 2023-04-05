@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto Slab", "Lora", "Caveat", sans-serif;
-    font-size:medium;
+    font-size:1.2em;
 
 }
 p {
@@ -412,8 +412,11 @@ li   {
 .solutions-paragraph-4,
 .solution-paragraph-5 {
     
-    grid-column: 1/11;
+    grid-column: 2/10;
     padding: 10px;
+    align-self: center;
+    justify-self: center;
+    
     
 }
 

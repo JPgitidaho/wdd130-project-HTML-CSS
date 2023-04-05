@@ -322,10 +322,11 @@ h1 {
 ***************************************************************************************************************/
 .main {
     display: grid;
-    grid-template-columns:  4fr 100px 4fr ;
+    grid-template-columns:repeat(10, 1fr);
     grid-template-rows:auto;
     grid-gap: 3em;
     margin: 100px 0;
+   
    
 }
 
@@ -334,22 +335,23 @@ h1 {
 li   {
     font-family: "Caveat","Roboto Slab",  "Lora", sans-serif; 
     font-size:1.5em;
-    margin-left: 10px;
+   
 }
 
 .mainproject {
-    grid-column: 1/5;
-    grid-row: 1/2;
+    grid-column: 2/10;
+    grid-row:2/3;
+   
    
 }
-.mainproject2{
-    grid-column: 1/5;
+.mainproject2 {
+    grid-column: 2/10;
     
 
 }
 
-.project {
-    grid-column: 1/5;
+.recommendation {
+    grid-column: 2/10;
 }
 .step {
     width: 100%;
@@ -359,33 +361,34 @@ li   {
 
 .proj1,
 .proj2,
-.finished {
+.finished     {
     transition: transform .5s;
     box-shadow: 5px 5px 10px black;
     border: 10px #b1730f8c solid;
     justify-self: center;
     padding: 5px;
+ 
     
     
 }
 
 .proj1 {
-    grid-column:1/2;
+    grid-column:2/6;
 
 }
 
 .proj2 {
-    grid-column: 3/4;
+    grid-column:6/10;
  
 }
 
 
 .finished {
-    grid-column : 1/4;
+    grid-column : 3/9;
  
 }
 .p-step {
-    grid-column: 1/5;
+    grid-column: 2/10;
     font-family: "Caveat", "Roboto Slab", "Lora", sans-serif;
     color: #372304;
     padding: 15px;

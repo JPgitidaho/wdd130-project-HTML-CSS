@@ -44,6 +44,8 @@ body {
 img {
     display: block;
     margin: 0 auto;
+    max-width: 500px;
+    max-height: auto;
 }
 
 h1,
